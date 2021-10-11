@@ -22,6 +22,8 @@ int main() {
 		float in = -2021 + i;
 		fwrite(&in,sizeof(M),1,f);
 	}
+	M = 5;
+	N = 9;
 	fclose(f);
 
 }
